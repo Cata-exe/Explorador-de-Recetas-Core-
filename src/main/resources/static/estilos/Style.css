@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body{
+	display: flex;
+	flex-direction: column;
+	font-family: Calibri, sans-serif;
+	align-items: center;
+	background-color: #fff4f4;
+}
+
+.nombreReceta, .recetaTitulo{
+	color: white;
+	background-color: #ffa851;
+	font-size: 45px;
+	text-align: center;
+	padding: 10px;
+	width: 500px;
+	border: dotted 8px #ff0080;
+}
+
+h2{
+	color: #d52709;
+	position: relative;
+	right: 100px;
+	top: 20px;
+	font-size: 35px;
+	
+}
+
+ul, .ingredienteReceta{
+	color: #f35e25;
+	font-weight: 800;
+	font-size: 20px;
+	display: flex;
+	position: relative;
+	right: 100px;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.ingredienteReceta{
+	color: #f35e25;
+	position: relative;
+	bottom: 20px;
+}
+
+.error{
+	color: red;
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 100px;
+}
